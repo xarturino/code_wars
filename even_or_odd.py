@@ -6,3 +6,7 @@ def even_or_odd(number):
 
 #checking
 print(even_or_odd(274))
+
+#best practice
+def even_or_odd(number):
+	return 'Odd' if number % 2 else 'Even'

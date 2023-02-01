@@ -6,3 +6,8 @@ def boolean_to_string(b):
 
 #checking
 print(boolean_to_string(True))
+
+
+#best solution
+def boolean_to_string(b):
+    return str(b)
